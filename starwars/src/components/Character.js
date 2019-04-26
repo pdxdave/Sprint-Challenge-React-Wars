@@ -10,7 +10,7 @@ const Character = ({chars}) => {
             <div className="character--card-stats">
                 <p><span>Gender:</span> {chars.gender}</p>
                 <p><span>Birth year:</span> {chars.birth_year}</p>
-                <p><span>Hair color:</span>{chars.hair_color}</p>
+                <p><span>Hair color:</span> {chars.hair_color}</p>
             </div>
             <div className="character--card-stats">
                 <p><span>Eye color:</span> {chars.eye_color}</p>

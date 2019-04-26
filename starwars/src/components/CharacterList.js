@@ -9,7 +9,6 @@ import Character from './Character';
                 <Character chars={characters}/>
             )
         })}
-     
     </div>
   )
 }
