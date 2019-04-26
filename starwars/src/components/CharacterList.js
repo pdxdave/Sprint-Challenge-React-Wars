@@ -3,7 +3,7 @@ import Character from './Character';
 
  const CharacterList = ({starwarsChars}) => {
   return (
-    <div>
+    <div className="character--list">
         {starwarsChars.map(characters => {
             return (
                 <Character chars={characters}/>
