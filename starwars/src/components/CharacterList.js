@@ -1,10 +1,15 @@
 import React from 'react'
 import Character from './Character';
 
- const CharacterList = () => {
+ const CharacterList = ({starwarsChars}) => {
   return (
     <div>
-      <Character />
+        {starwarsChars.map(characters => {
+            return (
+                <Character chars={characters}/>
+            )
+        })}
+     
     </div>
   )
 }

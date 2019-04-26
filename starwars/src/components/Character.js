@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Character = () => {
+const Character = ({chars}) => {
   return (
     <div>
-      <h1>Character</h1>
+      <p>{chars.name}</p>
     </div>
   )
 }
